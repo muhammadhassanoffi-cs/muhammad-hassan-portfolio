@@ -7,13 +7,12 @@ class ContactSection extends StatelessWidget {
    
   @override
   Widget build(BuildContext context) {
-    Future<void> launch(String url)async{
-    final uri=Uri.parse(url);
-    if(await canLaunchUrl(uri))
-    {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    }
-   }
+    Future<void> launch(String url, {LaunchMode mode = LaunchMode.externalApplication}) async {
+  final uri = Uri.parse(url);
+  if (await canLaunchUrl(uri)) {
+    await launchUrl(uri, mode: mode);
+  }
+}
     return Responsive(
       mobile:SingleChildScrollView(
         child: Padding(padding: EdgeInsets.all(18),
@@ -113,8 +112,8 @@ class ContactSection extends StatelessWidget {
   children: [
     InkWell(
       onTap: () {
-        launch("mailto:muhammadhassan.offi@gmail.com");
-      },
+  launch("mailto:muhammadhassan.offi@gmail.com", mode: LaunchMode.platformDefault);
+},
       borderRadius: BorderRadius.circular(12),
       child: Container(
         width: 129,
@@ -436,7 +435,7 @@ SizedBox(height: 50,),
                   children: [
                     InkWell(
 onTap: () {
-  launch("mailto:muhammadhassan.offi@gmail.com");
+  launch("mailto:muhammadhassan.offi@gmail.com", mode: LaunchMode.platformDefault);
 },
   borderRadius: BorderRadius.circular(16),
   child: Container(
