@@ -39,14 +39,14 @@ class HeroSection extends StatelessWidget {
   'Hi, I\'m',
   style: TextStyle(
     color: Colors.grey[400],
-    fontSize: 18,
+    fontSize: 19,
   ),
 ),
 Text(
   'M.Hassan',
   style: TextStyle(
     color: Colors.grey[100],
-    fontSize: 32,
+    fontSize: 35,
     fontWeight: FontWeight.bold,
   ),
 ),
@@ -59,7 +59,7 @@ child:AnimatedTextKit(
       'C++ Software Engineer ',
       textStyle: TextStyle(
           color: Colors.grey[100],
-          fontSize: 20,
+          fontSize: 22,
           fontWeight: FontWeight.bold,
         ),
         speed:Duration(milliseconds:80),
@@ -68,7 +68,7 @@ child:AnimatedTextKit(
         'Flutter App Developer',
         textStyle: TextStyle(
           color: Colors.grey[100],
-          fontSize: 20,
+          fontSize: 22,
           fontWeight: FontWeight.bold,
         ),
         speed: const Duration(milliseconds: 80),
@@ -87,9 +87,9 @@ Row(
       },
     style: ElevatedButton.styleFrom(
        backgroundColor: Colors.white,
-       padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+       padding: EdgeInsets.symmetric(horizontal: 18,vertical: 8),
        shape:RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(12),
        )
     )
     , child: Row(

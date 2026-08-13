@@ -134,7 +134,7 @@ SizedBox(height: 20,),
           ),
           child: const Text('C++', style: TextStyle(color: Colors.blue, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 4),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Chess-Game-OOP-Project"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),

@@ -178,6 +178,7 @@ SizedBox(height: 20,),
             // SizedBox(width: 10,),
             Column(
               children: [
+                SizedBox(width: 10,),
                 Text('3rd', style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
@@ -190,7 +191,7 @@ SizedBox(height: 20,),
   ),),
               ],
             ),
-            SizedBox(width: 10,),
+            SizedBox(width: 15,),
              Column(
               children: [
                 Text('6+', style: TextStyle(
@@ -205,7 +206,7 @@ SizedBox(height: 20,),
   ),),
               ],
             ),
-              SizedBox(width: 10,),
+              SizedBox(width: 15,),
              Column(
               children: [
                 Text('100%', style: TextStyle(
@@ -220,7 +221,7 @@ SizedBox(height: 20,),
   ),),
               ],
             ),
-            SizedBox(width: 10,),
+            SizedBox(width: 15,),
              Column(
               children: [
                 Text('BSCS', style: TextStyle(
