@@ -76,7 +76,7 @@ class SkillsSection extends StatelessWidget {
   ),
 ),
 SizedBox(height: 30,),
-Wrap(
+Row(
   children: [
      Card(
   elevation: 2,
@@ -108,7 +108,7 @@ Wrap(
     ),
   ),
 ),
-    SizedBox(width: 5,),
+    SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -139,7 +139,7 @@ Wrap(
     ),
   ),
 ),
-  SizedBox(width: 5,),
+  SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -170,7 +170,7 @@ Wrap(
     ),
   ),
 ),
- SizedBox(width: 5,),
+ SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -201,7 +201,11 @@ Wrap(
     ),
   ),
 ),
- SizedBox(width: 5,),
+  ],
+),
+Row(
+  children: [
+
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -232,7 +236,7 @@ Wrap(
     ),
   ),
 ),
- SizedBox(width: 5,),
+ SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -263,7 +267,7 @@ Wrap(
     ),
   ),
 ),
- SizedBox(width: 5,),
+ SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -294,7 +298,7 @@ Wrap(
     ),
   ),
 ),
- SizedBox(width: 5,),
+ SizedBox(width: 2,),
     Card(
   elevation: 2,
   color: const Color.fromARGB(255, 29, 29, 29),
@@ -327,6 +331,7 @@ Wrap(
 ),
   ],
 ),
+  
 SizedBox(height: 15,),
 Card(
   elevation: 2,

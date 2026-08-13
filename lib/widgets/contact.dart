@@ -110,6 +110,7 @@ class ContactSection extends StatelessWidget {
         SizedBox(height: 20,),
        Row(
   children: [
+        const SizedBox(width: 25),
     InkWell(
       onTap: () {
   launch("mailto:muhammadhassan.offi@gmail.com", mode: LaunchMode.platformDefault);
@@ -161,7 +162,7 @@ class ContactSection extends StatelessWidget {
         ),
       ),
     ),
-    const SizedBox(width: 8),
+    const SizedBox(width: 10),
     InkWell(
       onTap: () {
         launch("https://wa.me/923080620335");
@@ -217,6 +218,7 @@ class ContactSection extends StatelessWidget {
 SizedBox(height: 10,),
 Row(
   children: [
+    SizedBox(width: 25,),
     InkWell(
       onTap: () {
         launch("https://www.linkedin.com/in/muhammad-hassan-0886a5399/");
@@ -268,7 +270,7 @@ Row(
         ),
       ),
     ),
-    const SizedBox(width: 8),
+    const SizedBox(width: 10),
     InkWell(
       onTap: () {
         launch("https://github.com/muhammadhassanoffi-cs");

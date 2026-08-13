@@ -76,15 +76,16 @@ class Projects extends StatelessWidget {
       constraints: const BoxConstraints(maxWidth: 400),
       child: Text(
         "Here are some of the projects I've built. Each one taught me something new and brought me closer to solving real problems.",
-        style: TextStyle(color: Colors.grey[400], fontSize: 11.5, height: 1.6),
+        style: TextStyle(color: Colors.grey[400], fontSize: 12.5, height: 1.6),
       ),
     ),
-    SizedBox(height: 10,),
+    SizedBox(height: 15,),
     Row(
       children: [
+        SizedBox(width: 10,),
         SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -95,6 +96,7 @@ class Projects extends StatelessWidget {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        SizedBox(width: 10,),
         Row(
           children: [
             Container(
@@ -134,7 +136,7 @@ SizedBox(height: 20,),
           ),
           child: const Text('C++', style: TextStyle(color: Colors.blue, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 4),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Chess-Game-OOP-Project"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -146,10 +148,10 @@ SizedBox(height: 20,),
     ),
   ),
 ),
-SizedBox(width: 4,),
+SizedBox(width: 20,),
 SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -199,7 +201,7 @@ SizedBox(
           ),
           child: const Text('C++', style: TextStyle(color: Colors.blue, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Console-Based-Quiz-Game"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -213,12 +215,13 @@ SizedBox(
 ),
       ],
     ),
-    SizedBox(height: 10,),
+    SizedBox(height: 15,),
     Row(
       children: [
+        SizedBox(width: 10,),
         SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -268,7 +271,7 @@ SizedBox(
           ),
           child: const Text('C++', style: TextStyle(color: Colors.blue, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Bank-Account-Management-System"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -279,10 +282,10 @@ SizedBox(
       ],
     ),
   ),
-), SizedBox(width: 4,),
+), SizedBox(width: 20,),
 SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -332,7 +335,7 @@ SizedBox(
           ),
           child: const Text('Flutter', style: TextStyle(color: Colors.blue, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Findly"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -346,12 +349,13 @@ SizedBox(
 )
       ],
     ),
-    SizedBox(height: 10,),
+    SizedBox(height: 15,),
     Row(
       children: [
+        SizedBox(width: 10,),
         SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -401,7 +405,7 @@ SizedBox(
           ),
           child: const Text('Flutter/Dart', style: TextStyle(color: Colors.cyan, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/GitHub_Analyzer"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -413,10 +417,10 @@ SizedBox(
     ),
   ),
 ),
-SizedBox(width: 4,),
+SizedBox(width: 20,),
 SizedBox(
-  width: 130,
-  height: 130,
+  width: 140,
+  height: 140,
   child: Container(
     padding: const EdgeInsets.all(8),
     decoration: BoxDecoration(
@@ -466,7 +470,7 @@ SizedBox(
           ),
           child: const Text('HTML/CSS', style: TextStyle(color: Colors.deepOrange, fontSize: 9, fontWeight: FontWeight.w600)),
         ),
-        const SizedBox(height: 5),
+        const SizedBox(height: 2),
         TextButton.icon(
           onPressed: () => launch("https://github.com/muhammadhassanoffi-cs/Cofee-Republic"),
           style: TextButton.styleFrom(padding: EdgeInsets.zero, minimumSize: Size.zero),
@@ -484,9 +488,10 @@ SizedBox(
     Row(
      
           children: [
+               SizedBox(width: 20,),
             Column(
               children: [
-                SizedBox(width: 20,),
+             
                 Text('3rd', style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,

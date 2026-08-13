@@ -175,10 +175,11 @@ SizedBox(height: 20,),
           
      
           children: [
+               SizedBox(width: 25,),
             // SizedBox(width: 10,),
             Column(
               children: [
-                SizedBox(width: 10,),
+             
                 Text('3rd', style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
